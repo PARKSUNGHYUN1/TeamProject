@@ -9,27 +9,13 @@ package base;
  */
 public class Circle
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Circle
-     */
-    public Circle()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    int x;
+    int y;
+    int radius;
+    
+    public void Circle(int x, int y, int radius){
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
     }
 }
