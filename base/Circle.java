@@ -11,16 +11,17 @@ public class Circle implements Shape
     int x;
     int y;
     int radius;
-    public void Circle(int x, int y, int radius){
+    public Circle(int x, int y, int radius){
         this.x = x;
         this.y = y;
         this.radius = radius;
     }
     public double getArea(){
-        return PI * radius * radius;
+        return PI * this.radius * this.radius;
     }
     public void draw(){
-        System.out.println("반지름이"+ radius + "인 원입니다.");
+        System.out.println("반지름이"+ this.radius + "인 원입니다.");
     }
-    
+    //public void equals(int x, int y){
+    //}
 }
